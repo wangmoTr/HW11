@@ -20,5 +20,15 @@ public class Main {
             array3.add(array1.get(j));
         }
         System.out.println("this is arrray3 after adding 2 arrays " + array3);
+        //find minimum
+        int min = array3.get(0);
+        System.out.println(min);
+        for( int a= 0; a <array3.size(); a++ ){
+            if( array3.get(a) < min) {
+                min = array3.get(a);
+            }
+        }
+        System.out.println(min);
+
     }
 }
